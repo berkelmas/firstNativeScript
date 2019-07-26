@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "715302037153",
+    "firebase_url": "https://dosyaupload-bb0ee.firebaseio.com",
+    "project_id": "dosyaupload-bb0ee",
+    "storage_bucket": "dosyaupload-bb0ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715302037153:android:48601f73b3f6d86f",
+        "android_client_info": {
+          "package_name": "org.nativescript.newApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715302037153-3e464f0fvde2vhdjstvvbja7aqf9b21r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSV9DX3SaQ5kg07nlhT-80Kn1uIQWcFVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715302037153-3e464f0fvde2vhdjstvvbja7aqf9b21r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

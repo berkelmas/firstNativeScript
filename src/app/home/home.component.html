@@ -1,0 +1,14 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Nargilemi Getir"></Label>
+</ActionBar>
+
+<FlexBoxLayout class="mainpage-container">
+  <StackLayout class="loginform-container">
+    <TextField [(ngModel)]="email" hint="Email Adresi"></TextField>
+    <TextField [(ngModel)]="password" hint="Şifre" secure="true"></TextField>
+    <Button (tap)="handleSubmit()" class="btn btn-primary" text="GİRİŞ YAP"></Button>
+    <Button (tap)="handleCurrentUser()" class="btn btn-primary" text="KULLANICI GETİR"></Button>
+    <Button (tap)="handleLogout()" class="btn btn-primary" text="ÇIKIŞ YAP"></Button>
+    <Button nsRouterLink="/mainpage" class="btn btn-primary" text="MAINPAGE GİT"></Button>
+  </StackLayout>
+</FlexBoxLayout>
